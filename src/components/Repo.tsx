@@ -18,7 +18,7 @@ export default async function Repo({ name }: RepoProps) {
       <h3 className="text-xl font-bold">
         <Link href={`https://github.com/${username}/${name}`}>{repo.name}</Link>
       </h3>
-      <p>{repo.descriptiom}</p>
+      <p>{repo.description}</p>
       <div className="flex justify-between items-center mb-4">
         <span className="flex items-center gap-1">
           <FaStar /> {repo.stargazers_count}
